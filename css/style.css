@@ -1,0 +1,44 @@
+*{
+	margin: 0; 
+	padding: 0; 
+	font-size: 100%; 
+	box-sizing: border-box; 
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul{
+	display: flex;
+	margin-left: 5px;
+}
+nav, ul {
+	list-style: none;
+	padding-bottom: 0px;
+
+}
+
+li{
+	margin-left: 30px;
+}
+
+a{
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: none;
+	cursor: pointer;
+	color: #FFF;
+}
+
+
+
+header{
+	background-color: #FFF;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 0;
+	left: 0;
+	width: 100%;
+	align-items: center;
+	padding: 20px 50px;
+	background-color: black;
+}
